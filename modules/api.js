@@ -1,15 +1,3 @@
-/**
- *      __         ___            __        __
- *     / /_  ___  / (_)___ ______/ /___  __/ /
- *    / __ \/ _ \/ / / __ `/ ___/ __/ / / / / 
- *   / / / /  __/ / / /_/ / /__/ /_/ /_/ / /  
- *  /_/ /_/\___/_/_/\__,_/\___/\__/\__, /_/   
- *                               /____/      
- * 
- *     Heliactyl 18.0.0 (Ironclad Ridge)
- * 
- */
-
 const loadConfig = require("../handlers/config.js");
 const settings = loadConfig("./config.toml");
 const indexjs = require("../app.js");
@@ -24,7 +12,7 @@ const arciotext = require("../handlers/afk");
 const myCache = new NodeCache({ deleteOnExpire: true, stdTTL: 59 });
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "Heliactyl API 3.0 Beta", "target_platform": "10.0.0" };
+const heliactylModule = { "name": "API 3.0 Beta", "target_platform": "10.0.0" };
 
 /* Module */
 module.exports.heliactylModule = heliactylModule;
