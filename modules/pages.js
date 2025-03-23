@@ -1,15 +1,3 @@
-/**
- *      __         ___            __        __
- *     / /_  ___  / (_)___ ______/ /___  __/ /
- *    / __ \/ _ \/ / / __ `/ ___/ __/ / / / / 
- *   / / / /  __/ / / /_/ / /__/ /_/ /_/ / /  
- *  /_/ /_/\___/_/_/\__,_/\___/\__/\__, /_/   
- *                               /____/      
- * 
- *     Heliactyl 18.0.0 (Ironclad Ridge)
- * 
- */
-
 const indexjs = require("../app.js");
 const ejs = require("ejs");
 const express = require("express");
