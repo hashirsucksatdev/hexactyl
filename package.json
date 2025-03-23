@@ -1,9 +1,9 @@
 {
-  "name": "ui10",
+  "name": "hexactyl",
   "version": "10.0.0",
-  "description": "The official Heliactyl client area for the Pterodactyl Panel.",
+  "description": "The official Hexactyl client area for the Pterodactyl Panel.",
   "main": "app.js",
-  "author": "Matt James",
+  "author": "Ethan James & Snezzy",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "@keyv/sqlite": "^3.5.2",
