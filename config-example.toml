@@ -1,15 +1,15 @@
 # Name and timezone
-name = "Yes"
+name = "Hexactyl"
 icon = "../assets/spinner.png"
 timezone = "Europe/London"
 
-# Heliactyl release information
+# Hexactyl release information
 version = "10.0.0"
 
 # Additional settings
 testing = false
 clusters = 1
-database = "sqlite://heliactyl3.db"
+database = "sqlite://hexactyl3.db"
 
 # Pterodactyl settings
 [pterodactyl]
@@ -63,7 +63,7 @@ accountSwitcher = true
 
   [api.client.passwordgenerator]
   signup = true
-  note = "Use this to disable registering on Heliactyl."
+  note = "Use this to disable registering on Hexactyl."
   length = 24
 
   [api.client.allow]
@@ -140,7 +140,7 @@ display = "Minecraft - Purpur"
 
   [api.client.eggs.purpur.info]
   egg = 5
-  docker_image = "ghcr.io/zenllc/java:21"
+  docker_image = "ghcr.io/parkervcp/java:21"
   startup = "java -Xms256M -Xmx{{SERVER_MEMORY}}M {{JAVA_ARGUMENTS}} -jar {{SERVER_JARFILE}}"
 
     [api.client.eggs.purpur.info.environment]
@@ -168,7 +168,7 @@ display = "Velocity"
 
   [api.client.eggs.velocity.info]
   egg = 16
-  docker_image = "ghcr.io/zenllc/java:21"
+  docker_image = "ghcr.io/parkervcp/java:21"
   startup = "java -Xms128M -Xmx{{SERVER_MEMORY}}M {{JAVA_ARGUMENTS}} -jar {{SERVER_JARFILE}}"
 
     [api.client.eggs.velocity.info.environment]
@@ -273,18 +273,17 @@ coins = 150
 userid = "000000"
 
 [antivpn]
-note = "For this to work, generate an API Key on https://proxycheck.io/. If you do not put a key, Heliactyl will automatically disable anti-VPN."
+note = "For this to work, generate an API Key on https://proxycheck.io/. If you do not put a key, Hexactyl will automatically disable anti-VPN."
 status = false
 APIKey = "Proxycheck API Key"
 whitelistedIPs = [ "IP address" ]
 
 [whitelist]
-note = "This allows only specific people to be able to login to the Heliactyl dashboard. This does not affect your Panel."
+note = "This allows only specific people to be able to login to the Hexactyl dashboard. This does not affect your Panel."
 status = false
 users = [ "User ID" ]
 
 [logging]
-_note = "This is the 2nd-generation version of Heliactyl's logging system. Please report any bugs on the GitHub (github.com/heliactyloss/heliactyl). Thank you."
 status = true
 webhook = ""
 
