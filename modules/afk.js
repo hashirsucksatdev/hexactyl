@@ -1,15 +1,3 @@
-/**
- *      __         ___            __        __
- *     / /_  ___  / (_)___ ______/ /___  __/ /
- *    / __ \/ _ \/ / / __ `/ ___/ __/ / / / / 
- *   / / / /  __/ / / /_/ / /__/ /_/ /_/ / /  
- *  /_/ /_/\___/_/_/\__,_/\___/\__/\__, /_/   
- *                               /____/      
- * 
- *     Heliactyl 18.0.0 (Ironclad Ridge)
- * 
- */
-
 const loadConfig = require("../handlers/config");
 const settings = loadConfig("./config.toml");
 const indexjs = require("../app.js");
@@ -18,7 +6,7 @@ const chalk = require("chalk");
 const fs = require("fs");
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "ZTX AFK Page", "target_platform": "10.0.0" };
+const heliactylModule = { "name": "AFK Page", "target_platform": "10.0.0" };
 
 /* Module */
 module.exports.heliactylModule = heliactylModule;
