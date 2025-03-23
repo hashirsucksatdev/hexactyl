@@ -56,3 +56,11 @@ Making the dashboard runs on startup:
 - To stop your Hexactyl from running in the background, use `pm2 unstartup`
 
 To stop a currently running Hexactyl instance, use `pm2 stop hexactyl`
+
+# Legacy Deprecation Notice
+
+Falcon (EOL), Lexactyl/Spaceport is now deprecated as listed in our github and should not be used.
+Please update to Hexactyl v12.
+
+# Contribution
+Feel free to contribute.
