@@ -1,15 +1,3 @@
-/**
- *      __         ___            __        __
- *     / /_  ___  / (_)___ ______/ /___  __/ /
- *    / __ \/ _ \/ / / __ `/ ___/ __/ / / / / 
- *   / / / /  __/ / / /_/ / /__/ /_/ /_/ / /  
- *  /_/ /_/\___/_/_/\__,_/\___/\__/\__, /_/   
- *                               /____/      
- * 
- *     Heliactyl 18.0.0 (Ironclad Ridge)
- * 
- */
-
 "use strict";
 
 // Load logging.
@@ -152,7 +140,7 @@ if (cluster.isMaster) {
     console.table(modulesTable);
   
     const numCPUs = settings.clusters;
-    console.log(chalk.gray('Starting workers on Heliactyl ' + settings.version));
+    console.log(chalk.gray('Starting workers on Hexactyl ' + settings.version));
     console.log(chalk.gray(`Master ${process.pid} is running`));
     console.log(chalk.gray(`Forking ${numCPUs} workers...`));
   
@@ -218,7 +206,7 @@ if (cluster.isMaster) {
   module.exports.app = app;
 
   app.use((req, res, next) => {
-    res.setHeader("X-Powered-By", "Zen - UI10");
+    res.setHeader("X-Powered-By", "Ethan & Snezzy - Hexactyl");
     next();
   });
 
