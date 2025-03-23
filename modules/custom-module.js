@@ -1,17 +1,3 @@
-/**
- *      __         ___            __        __
- *     / /_  ___  / (_)___ ______/ /___  __/ /
- *    / __ \/ _ \/ / / __ `/ ___/ __/ / / / / 
- *   / / / /  __/ / / /_/ / /__/ /_/ /_/ / /  
- *  /_/ /_/\___/_/_/\__,_/\___/\__/\__, /_/   
- *                               /____/      
- * 
- *     Copyright (c) Zen Software LTD and Matt James
- * 
- */
-
-/* Heliactyl addon by (c) Matt James */
-
 const loadConfig = require("../handlers/config.js");
 const settings = loadConfig("./config.toml");
 const indexjs = require("../app.js");
@@ -27,7 +13,7 @@ const crypto = require('crypto')
 const myCache = new NodeCache({ deleteOnExpire: true, stdTTL: 59 });
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "UI10 Addon", "target_platform": "10.0.0" };
+const heliactylModule = { "name": "Hexactyl Custom Addon", "target_platform": "10.0.0" };
 /* Module */
 module.exports.heliactylModule = heliactylModule;
 module.exports.load = async function (app, db) {
