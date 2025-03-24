@@ -13,9 +13,9 @@ const crypto = require('crypto')
 const myCache = new NodeCache({ deleteOnExpire: true, stdTTL: 59 });
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "Hexactyl Custom Addon", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "Hexactyl Custom Addon", "target_platform": "10.0.0" };
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function (app, db) {
     // Create a referral code
     app.post("/referral/create", async (req, res) => {
