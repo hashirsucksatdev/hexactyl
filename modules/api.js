@@ -12,10 +12,10 @@ const arciotext = require("../handlers/afk");
 const myCache = new NodeCache({ deleteOnExpire: true, stdTTL: 59 });
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "API 3.0 Beta", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "API 3.0 Beta", "target_platform": "10.0.0" };
 
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function (app, db) {
     /**
    * GET /giftcoins
