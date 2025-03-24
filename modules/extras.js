@@ -6,10 +6,10 @@ const fetch = require("node-fetch");
 const Queue = require("../handlers/queue.js");
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "Extra Features", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "Extra Features", "target_platform": "10.0.0" };
 
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function (app, db) {
   app.get("/panel", async (req, res) => {
     res.redirect(settings.pterodactyl.domain);
