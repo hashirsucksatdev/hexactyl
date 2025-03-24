@@ -127,12 +127,12 @@ if (cluster.isMaster) {
 
     moduleFiles.forEach(file => {
       const module = require('./modules/' + file);
-      if (!module.load || !module.heliactylModule) {
+      if (!module.load || !module.hexactylModule) {
         modulesTable.push({ File: file, Status: 'No module information', 'Target Platform': 'Unknown' });
         return;
       }
     
-      const { name, target_platform } = module.heliactylModule;
+      const { name, target_platform } = module.hexactylModule;
   
       modulesTable.push({ File: file, Name: name, Status: 'Module loaded!', 'Target Platform': target_platform });
     });
