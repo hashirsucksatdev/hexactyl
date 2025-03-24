@@ -14,10 +14,10 @@ if (settings.pterodactyl)
   }
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "Pterodactyl", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "Pterodactyl", "target_platform": "10.0.0" };
 
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function (app, db) {
   app.get("/updateinfo", async (req, res) => {
     if (!req.session.pterodactyl) return res.redirect("/login");
