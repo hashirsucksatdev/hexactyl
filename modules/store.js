@@ -11,10 +11,10 @@ const REWARD_AMOUNT = 150;
 const DAY_IN_MILLISECONDS = 86400000;
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "Resources Store", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "Resources Store", "target_platform": "10.0.0" };
 
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function (app, db) {
   app.get("/buy", async (req, res) => {
     if (!req.session.pterodactyl) return res.redirect("/login");
