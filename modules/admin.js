@@ -16,10 +16,10 @@ const log = require("../handlers/log.js");
 const arciotext = require('../handlers/afk.js')
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "Admin", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "Admin", "target_platform": "10.0.0" };
 
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function (app, db) {
   app.get("/setcoins", async (req, res) => {
     let theme = indexjs.get(req);
