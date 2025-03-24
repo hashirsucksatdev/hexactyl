@@ -6,10 +6,10 @@ const chalk = require("chalk");
 const fs = require("fs");
 
 /* Ensure platform release target is met */
-const heliactylModule = { "name": "AFK Page", "target_platform": "10.0.0" };
+const hexactylModule = { "name": "AFK Page", "target_platform": "10.0.0" };
 
 /* Module */
-module.exports.heliactylModule = heliactylModule;
+module.exports.hexactylModule = hexactylModule;
 module.exports.load = async function(app, db) {
   app.ws("/" + settings.api.afk.path, async (ws, req) => {
     let currentlyonpage = await db.get('afkSessions');
