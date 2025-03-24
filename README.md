@@ -21,9 +21,10 @@ The latest versions will be on v12 now
 Using cloudflare proxy can disable anti-alt and VPN Check
 
 # Installation
-1. Fork the repo
-2. Install nodejs and configure the config.tomel
-3. Run the app.js
+1. Download the code ``git clone https://github.com/hashirsucksatdev/hexactyl/``
+2. Install nodejs
+3. ``cd hexactyl`` and ``npm install``
+4. Rename config-example.toml to config.to
 
 # Updating 
 
