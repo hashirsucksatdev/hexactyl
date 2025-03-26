@@ -24,7 +24,9 @@ Using cloudflare proxy can disable anti-alt and VPN Check
 1. Download the code ``git clone https://github.com/symthopticoss/hexactyl/``
 2. Install nodejs
 3. ``cd hexactyl`` and ``npm install``
-4. Rename config-example.toml to config.to
+4. Rename ``config-example.toml`` to ``config.toml``
+5. Configure the file
+6. Run the dashboard with ``node app.js``
 
 # Updating 
 
